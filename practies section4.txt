@@ -1,0 +1,75 @@
+Accept numbers from a user
+========================
+
+first = int (input ("enter the first number :"))
+second = int (input ("enter the second number :"))
+third = first*second
+print (f"Multiplication is",third)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 mult.py
+enter the first number :2
+enter the second number :3
+Multiplication is 6
+
+-----------------------------------
+
+Display three string “Name”, “Is”, “James” as “Name**Is**James”
+==========================================
+
+print('My', 'Name', 'Is', 'James', sep='**')
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 jam.py
+My**Name**Is**James
+
+---------------------------------
+
+Display float number with 2 decimal places using print()
+=====================================
+
+num = 458.541315
+print('%.2f' % num)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 calc.py
+458.54
+
+-------------------------------------
+
+Format variables using a string.format() method.
+===========================================
+
+totalMoney = 1000
+quantity = 3
+price = 450
+statement = "I have {} dollars so I can buy {} football for {:.2f} dollars"
+print (statement.format(quantity, totalMoney, price))
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 str.py
+I have 3 dollars so I can buy 1000 football for 450.00 dollars
+
+--------------------------------------------------
+
+Accept any three string from one input() call
+===========================================
+
+str1, str2, str3 = input("Enter three string").split()
+print('Name1:', str1)
+print('Name2:', str2)
+print('Name3:', str3)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 three.py
+Enter three string Emma Jessa Kelly
+Name1: Emma
+Name2: Jessa
+Name3: Kelly
+
+---------------------------------------------------

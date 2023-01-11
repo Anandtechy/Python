@@ -1,0 +1,104 @@
+Write a program to print multiplication table of a given number
+================================================
+
+num = 2
+for i in range (1, 11, 1):
+  mult = i*num
+  print (mult)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 mult.py     
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+
+----------------------------------------------
+
+Print First 10 natural numbers using while loop
+=================================================
+
+i = 1
+while i <= 10:
+    print(i)
+    i = i+1
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 naut.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+----------------------------------------------
+
+Count the total number of digits in a number
+============================================
+
+number = 54332
+counter = 0
+while number!=0:
+  number= number//10
+  counter=counter+1
+print(counter)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 digit.py
+5
+
+-----------------------------------------------
+
+Use else block to display a message “Done” after successful execution of for loop
+==============================================
+
+for i in range(5):
+    print(i)
+else:
+  print("done")
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 done.py
+0
+1
+2
+3
+4
+done
+
+-----------------------------------------------
+
+Print list in reverse order using a loop
+=======================================
+
+list1 = [10, 20, 30, 40, 50]
+new_list = reversed(list1)
+for i in new_list:
+    print(i)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 loop.py
+50
+40
+30
+20
+10
+
+--------------------------------------------------

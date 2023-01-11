@@ -1,0 +1,82 @@
+Reverse a given string
+=================================================
+
+str1 = "PYnative"
+str2 = str1[::-1]
+print (str2)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 rv.py
+evitanYP
+
+-------------------------------------------------
+
+Split a string on hyphens
+=========================
+
+str1 = "Emma-is-a-data-scientist"
+str2 = str1.split("-")
+print(str2)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 split.py
+['Emma', 'is', 'a', 'data', 'scientist']
+
+---------------------------------------------------
+
+Create a string made of the first, middle and last character
+========================================================
+
+str1 = "James"
+first = str1[0]
+second = str1[int(len(str1)/2)]
+third = str1[len(str1)-1]
+final = first+second+third
+print(final)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 new.py
+Jms
+
+--------------------------------------------------
+
+Create a new string made of the first, middle, and last characters of each input string
+==============================================================
+
+s1 = "America"
+s2 = "Japan"
+first = s1[0]+s2[0]
+second = s1[int (len(s1)/2)]+s2[int (len(s2)/2)]
+third = s1[len(s1)-1]+s2[len(s2)-1]
+final = first+second+third
+print(final)
+
+output :
+
+PS C:\Users\geeth\.ssh> python3 st.py
+AJrpan
+
+--------------------------------------------------------
+
+Create a mixed String using the following rules
+=============================================
+
+s1 = "Abc"
+s2 = "Xyz"
+first = s1[0]+s2[len(s2)-1]
+second = s1[int(len(s1)/2)]+s2[int(len(s2)/2)]
+third = s1[len(s1)-1]+s2[0]
+final = first+second+third
+print (final)
+
+output:
+
+PS C:\Users\geeth\.ssh> python3 mixe.py
+AzbycX
+
+--------------------------------------------------------------
+
+
